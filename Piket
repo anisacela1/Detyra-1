@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std::
+
+int main() {
+    char piket;
+    std::cout << "Vendos piket:";
+    std::cin >> piket;
+
+    switch (piket) {
+        case '90-100':
+            std::cout << "A" << std::ends;
+            break;
+        case '80-89':
+            std::cout << "B" << std::ends;
+            break;
+        case '70-79':
+            std::cout << "C" << std::ends;
+            break;
+        case '60-69':
+            std::cout << "D" << std::ends;
+            break;
+        case '50-59':
+            std::cout << "F" << std::ends;
+            break;
+        default:
+            std::cout << "Nota nuk eshte valide." << std::ends;
+    }
+
+    return 0;
+}
+
+    return 0;
+}
+
