@@ -1,34 +1,29 @@
-#include <iostream>
-using namespace std::
+#include <stdio.h>
 
 int main() {
     char piket;
-    std::cout << "Vendos piket:";
-    std::cin >> piket;
+    printf("Vendosni piket:");
+    scanf("%c", &piket);
 
     switch (piket) {
         case '90-100':
-            std::cout << "A" << std::ends;
+            printf("A!\n");
             break;
-        case '80-89':
-            std::cout << "B" << std::ends;
+        case '89-90':
+            printf("B!\n");
             break;
-        case '70-79':
-            std::cout << "C" << std::ends;
+        case '79-80':
+            printf("C!\n");
             break;
-        case '60-69':
-            std::cout << "D" << std::ends;
+        case '69-70':
+            printf("D.\n");
             break;
-        case '50-59':
-            std::cout << "F" << std::ends;
+        case '59-60':
+            printf("F\n");
             break;
         default:
-            std::cout << "Nota nuk eshte valide." << std::ends;
+            printf(" Nota nuk eshte valide.\n");
     }
 
     return 0;
 }
-
-    return 0;
-}
-
